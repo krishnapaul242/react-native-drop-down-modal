@@ -1,6 +1,6 @@
 {
   "name": "react-native-dropdown-step",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An easy to use dropdown step component for React Native",
   "homepage": "https://github.com/krishnapaul242/react-native-drop-down-modal#readme",
   "main": "lib/index.js",
