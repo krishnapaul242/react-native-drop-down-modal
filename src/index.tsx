@@ -119,6 +119,9 @@ export function DropDownStep<T extends {} = {}>(props: DropDownStepProps<T>) {
             <Image
               source={require('./assets/arrow-drop-down.png')}
               width={30}
+              height={30}
+              resizeMethod="resize"
+              resizeMode="contain"
               style={styles.inputRightCaretDown}
             />
           ) : (
@@ -336,6 +339,8 @@ const styles = StyleSheet.create({
   },
   inputRightCaretDown: {
     marginRight: 5,
+    width: 30,
+    height: 30,
   },
   inputValueText: {
     fontSize: 17,

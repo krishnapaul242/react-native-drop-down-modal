@@ -7,7 +7,7 @@
     "module": "CommonJS",
     "noEmit": true,
     "paths": {
-      "react-native-drop-down-modal": ["../src"]
+      "react-native-dropdown-step": ["../src"]
     },
     "skipLibCheck": true,
     "strict": true,

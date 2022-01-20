@@ -33,3 +33,8 @@ interface item {
     defaultValue={SomeDefaultValue} 
   />
 ```
+
+### Example Screenshots
+![Initial Status](https://github.com/krishnapaul242/react-native-drop-down-modal/blob/main/screenshots/image1.jpg?raw=true)
+![When DropDown is Selected](https://github.com/krishnapaul242/react-native-drop-down-modal/blob/main/screenshots/image2.jpg?raw=true)
+![After Selection](https://github.com/krishnapaul242/react-native-drop-down-modal/blob/main/screenshots/image3.jpg?raw=true)

@@ -11,10 +11,11 @@
     "lib"
   ],
   "scripts": {
-    "compile": "rm -rf lib && tsc -p .",
+    "compile": "rm -rf lib && tsc -p . && npm run copy-files",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepare": "yarn compile",
-    "test": "jest"
+    "test": "jest",
+    "copy-files": "mkdir ./lib/assets/ && cp -r ./src/assets/ ./lib/assets/"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
