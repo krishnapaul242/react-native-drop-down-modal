@@ -95,9 +95,10 @@ export function DropDownStep<T extends {} = {}>(props: DropDownStepProps<T>) {
   return (
     <>
       <View style={{ ...styles.inputContainer, ...props.style }}>
-        <Text style={styles.inputTitle}>
-          {props.title ? props.title : 'Select'}
-        </Text>
+        {props.title ? (
+          <Text style={styles.inputTitle}>{props.title}</Text>
+        ) : null}
+
         <TouchableOpacity
           style={styles.input}
           onPress={() => {
@@ -224,9 +225,8 @@ export function DropDownStep<T extends {} = {}>(props: DropDownStepProps<T>) {
               onPress={() => {
                 setModalVisible(false)
               }}
-              title={"Done"}
-            >
-            </Button>
+              title={'Done'}
+            ></Button>
           </View>
         </View>
       </Modal>
