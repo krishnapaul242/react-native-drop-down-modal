@@ -7,6 +7,16 @@
   "types": "lib/index.d.ts",
   "author": "Krishna Paul <me@krishnapaul.in>",
   "license": "MIT",
+  "tags": [
+    "react",
+    "react-native",
+    "dropdown",
+    "drop-down",
+    "step",
+    "modal",
+    "type-safe",
+    "typescript"
+  ],
   "files": [
     "lib"
   ],
