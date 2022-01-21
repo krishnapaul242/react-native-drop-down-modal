@@ -33,6 +33,10 @@ interface item {
     defaultValue={SomeDefaultValue} 
   />
 ```
+### Features Coming Next
+1. Variants
+2. Replacable DropDown Arrow Icon
+3. Multiple Selection Support
 
 ### Example Screenshots
 ![Initial Status](https://github.com/krishnapaul242/react-native-drop-down-modal/blob/main/screenshots/image1.png?raw=true)

@@ -72,7 +72,8 @@ export interface DropDownStepProps<T extends {} = {}> {
   renderItem?: (item: DropDownItemProps<T>) => React.ReactElement
   style?: ViewStyle
   status?: StatusTypes
-  multi?: boolean
+  DropDownArrow?: (status: StatusTypes) => React.ReactElement
+  variant?: 'model' | 'bottomsheet'
 }
 
 export function DropDownStep<T extends {} = {}>(props: DropDownStepProps<T>) {
@@ -159,13 +160,6 @@ export function DropDownStep<T extends {} = {}>(props: DropDownStepProps<T>) {
             <Text style={styles.title}>
               {props.title ? props.title : 'Select'}
             </Text>
-            {/* <FA
-              name="times"
-              size={20}
-              color="#999"
-              style={{padding: 10}}
-              onPress={() => setModalVisible(false)}
-            /> */}
           </View>
           {/* {SelectedValue ? (
             <View
